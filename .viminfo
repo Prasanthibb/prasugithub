@@ -21,10 +21,17 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/test3file.txt
-'1  1  14  ~/prasugithub/gitfile.txt
+'0  1  18  ~/file4text.txt
+'1  1  0  ~/test3file.txt
+'2  1  14  ~/prasugithub/gitfile.txt
 
 # Jumplist (newest first):
+-'  1  18  ~/file4text.txt
+-'  1  0  ~/test3file.txt
+-'  1  14  ~/prasugithub/gitfile.txt
+-'  1  14  ~/prasugithub/gitfile.txt
+-'  1  14  ~/prasugithub/gitfile.txt
+-'  1  14  ~/prasugithub/gitfile.txt
 -'  1  0  ~/test3file.txt
 -'  1  14  ~/prasugithub/gitfile.txt
 -'  1  14  ~/prasugithub/gitfile.txt
@@ -32,6 +39,12 @@
 -'  1  14  ~/prasugithub/gitfile.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/file4text.txt
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
 
 > ~/test3file.txt
 	"	1	0
